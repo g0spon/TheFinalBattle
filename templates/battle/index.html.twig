@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}The Last Battle!{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    {% if winner is defined %}
+        <h1>Winner is {{ winner }} fleet!</h1>
+    {% endif %}
+    {% if error is defined %}
+        {{ error }}
+    {% endif %}
+
+</div>
+{% endblock %}
