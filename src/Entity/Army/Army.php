@@ -47,7 +47,7 @@ class Army
 
     public function getRandomTank()
     {
-        return $this->tanks [array_rand($this->tanks)];
+        return $this->tanks[array_rand($this->tanks)];
     }
 
     public function countTankNumber($tanks)
@@ -59,5 +59,12 @@ class Army
     {
         $tankIndex = array_search($tank, $this->tanks);
         unset($this->tanks[$tankIndex]);
+    }
+
+    public function isAlive()
+    {
+        if(count($this->tanks)!= 0){
+            return true;
+        } else { return false; }
     }
 }

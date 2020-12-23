@@ -8,10 +8,8 @@ class Battle
 {
     public function battle($germanArmy, $russianArmy)
     {
-        $germanTanks = $germanArmy->tanks;
-        $russianTanks = $russianArmy->tanks;
 
-        while ($germanTanks > 0 && $russianTanks > 0) {
+        while ($germanArmy->isAlive() && $russianArmy->isAlive()) {
             $germanTank = $germanArmy->getRandomTank();
             $russianTank = $russianArmy->getRandomTank();
 

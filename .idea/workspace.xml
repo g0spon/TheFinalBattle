@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fadcb7c-001f-4f58-90db-1ece97fe8ad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_12_21_20__8_33_PM.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BattleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Army/Army.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Army/GermanArmy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Army/RussianArmy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Tank/HeavyTank.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Tank/LightTank.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Tank/MediumTank.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Tank/Tank.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logic/Battle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/battle/index.html.twig" afterDir="false" />
+    <list default="true" id="4fadcb7c-001f-4f58-90db-1ece97fe8ad0" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Army/Army.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Army/Army.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Tank/HeavyTank.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Tank/HeavyTank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Tank/LightTank.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Tank/LightTank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Tank/MediumTank.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Tank/MediumTank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Tank/Tank.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Tank/Tank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/Battle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Battle.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -91,13 +82,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zadatak" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hlevov_zadatak" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -116,7 +108,18 @@
       <option name="presentableId" value="Default" />
       <updated>1608579206671</updated>
       <workItem from="1608579207786" duration="10574000" />
+      <workItem from="1608590823274" duration="753000" />
+      <workItem from="1608591703536" duration="13000" />
+      <workItem from="1608713934407" duration="6858000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1608590867801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608590867801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,8 +135,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

@@ -9,7 +9,7 @@ class HeavyTank extends Tank
     public function __construct()
     {
         $this->setName('HeavyTank');
-        $this->setDamage(50);
+        $this->setPower(50);
         $this->setHitPoints(50);
         $this->setHitChance(25 );
     }

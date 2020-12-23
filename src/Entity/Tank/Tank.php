@@ -4,12 +4,62 @@
 namespace App\Entity\Tank;
 
 
+
 class Tank
 {
     private $name;
-    private $damage;
+    private $power;
     private $hitPoints;
     private $hitChance;
+    private $damage;
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param mixed $name
+     */
+    public function setName($name): void
+    {
+        $this->name = $name;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPower()
+    {
+        return $this->power;
+    }
+
+    /**
+     * @param mixed $power
+     */
+    public function setPower($power): void
+    {
+        $this->power = $power;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getHitPoints()
+    {
+        return $this->hitPoints;
+    }
+
+    /**
+     * @param mixed $hitPoints
+     */
+    public function setHitPoints($hitPoints): void
+    {
+        $this->hitPoints = $hitPoints;
+    }
 
     /**
      * @return mixed
@@ -22,29 +72,13 @@ class Tank
     /**
      * @param mixed $hitChance
      */
-    public function setHitChance($hitChance)
+    public function setHitChance($hitChance): void
     {
         $this->hitChance = $hitChance;
     }
 
     /**
-     * @return string
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    /**
-     * @param string $name
-     */
-    public function setName(string $name)
-    {
-        $this->name = $name;
-    }
-
-    /**
-     * @return integer
+     * @return mixed
      */
     public function getDamage()
     {
@@ -52,32 +86,31 @@ class Tank
     }
 
     /**
-     * @param integer $damage
+     * @param mixed $damage
      */
-    public function setDamage(int $damage)
+    public function setDamage($damage): void
     {
         $this->damage = $damage;
     }
 
-    /**
-     * @return integer
-     */
-    public function getHitPoints()
-    {
-        return $this->hitPoints;
-    }
-
-    /**
-     * @param integer $hitPoints
-     */
-    public function setHitPoints(int $hitPoints)
-    {
-        $this->hitPoints = $hitPoints;
-    }
-
     public function missChance($hitChance)
     {
-        if (mt_rand(0,100)<=$hitChance){}
+        if (mt_rand(0, 100) >= $hitChance){
+            return $this->hitChance = true;
+        } else {
+            return $this->hitChance = false;
+        }
+    }
+
+    public function calculateDamage()
+    {
+        if($this->hitChance = true) {
+            $this->damage = $this->power;
+        } else {
+
+            $n = 0;
+            $this->damage = $this->power * $n;
+        }
     }
 
     public function attack($hitPoints)
